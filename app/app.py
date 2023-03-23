@@ -1,3 +1,8 @@
+# cd app
+# export FLASK_SKIP_DOTENV=True
+# export FLASK_APP=app.py
+# flask run
+
 from flask import Flask
 app = Flask(__name__)
 
